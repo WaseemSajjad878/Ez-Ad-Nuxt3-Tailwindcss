@@ -1,0 +1,24 @@
+.btn {
+  @apply rounded-full border transition-all font-14 px-[21px] py-[7px];
+}
+.btn-lg {
+  @apply py-[12px] sm:py-[14px] text-base sm:text-lg;
+}
+.btn-primary {
+  @apply bg-primary text-black border-primary hover:bg-white hover:text-primary;
+}
+
+.btn-secondary {
+  @apply border-black hover:bg-primary hover:border-primary;
+}
+
+.btn-light {
+  @apply bg-white text-black hover:text-primary hover:border-primary;
+}
+
+.btn-dark {
+  @apply bg-black border-black text-white hover:text-primary hover:border-primary;
+}
+.btn.animate-icon-right:hover img{
+  @apply translate-x-[3px] duration-300
+}
