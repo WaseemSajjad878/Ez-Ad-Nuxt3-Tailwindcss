@@ -3,7 +3,7 @@
 
 <template>
   <section class="container overflow-hidden">
-    <h4 class="text-[20px] leading-[24px] text-center mb-6">Trusted by</h4>
+    <h2 class="text-[20px] leading-[24px] text-center mb-6">Trusted by</h2>
       <div
         class="brands-wrapper whitespace-nowrap flex gap-5 sm:gap-8 lg:gap-14 justify-center items-center"
       >

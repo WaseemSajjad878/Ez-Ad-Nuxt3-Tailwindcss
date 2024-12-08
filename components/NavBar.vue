@@ -4,7 +4,7 @@ const links = [
   { id: 2, title: "Pricing", redirectTo: "/" },
   {
     id: 3,
-    title: "Industries",
+    title: "Industries", redirectTo: "/",
     subLinks: [
       { id: 31, title: "Banking", redirectTo: "/" },
       { id: 32, title: "Business", redirectTo: "/" },
