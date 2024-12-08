@@ -42,6 +42,7 @@ useHead({
     { rel: "canonical", href: "https://nuxt3-landing-page-three.vercel.app/" },
   ],
 });
+
 </script>
 <template>
   <main>
