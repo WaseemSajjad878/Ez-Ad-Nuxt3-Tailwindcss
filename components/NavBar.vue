@@ -1,7 +1,7 @@
 <script setup>
 const links = [
   { id: 1, title: "How It Works", redirectTo: "/" },
-  { id: 2, title: "Pricing", redirectTo: "/" },
+  { id: 2, title: "Pricing", redirectTo: "/pricing" },
   {
     id: 3,
     title: "Industries", redirectTo: "/",

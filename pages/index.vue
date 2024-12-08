@@ -1,5 +1,8 @@
 
 <script setup>
+const isSSRDisabled = useNuxtApp().ssrContext === null
+
+console.log('Is SSR disabled for this page?', isSSRDisabled)
 useHead({
   title: "Best Digital Signage for Gyms & Fitness Centers | Ezad TV",
   meta: [
