@@ -14,5 +14,9 @@ export default defineNuxtConfig({
         lang: 'en', // Set the language here
       }
     }
-  }
+  },
+  routeRules: {
+    '/': { ssr: true },
+    '/pricing': { ssr: false },
+  },
 });

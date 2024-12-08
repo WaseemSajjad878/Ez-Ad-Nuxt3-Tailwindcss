@@ -1,8 +1,5 @@
 
 <script setup>
-definePageMeta({
-  ssr: false // Disable SSR for this page
-})
 useHead({
   title: "Best Digital Signage for Gyms & Fitness Centers | Ezad TV",
 });
